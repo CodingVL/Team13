@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team 13</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --gradient: radial-gradient(
+          circle farthest-corner at 92.3% 71.5%,
+          rgba(83, 138, 214, 1) 0%,
+          rgba(134, 231, 214, 1) 90%
+        );
+      }
+      body {
+        min-height: 100vh;
+        background-color: #eaeaea;
+        background-image: var(--gradient);
+        background-size: 200%;
+        animation: gradient-animation 5s infinite alternate;
+        display: flex;
+        /* justify-content: center;
+        align-items: center; */
+      }
+
+      @keyframes gradient-animation {
+        0% {
+          background-position: left;
+        }
+        100% {
+          background-position: right;
+        }
+      }
+      h1 {
+        font-size: 8rem;
+        text-align: center;
+        margin: auto;
+        font-family: "DynaPuff", cursive;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Team 13</h1>
+  </body>
+</html>
